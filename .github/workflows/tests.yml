@@ -38,4 +38,4 @@ jobs:
         symfony php bin/phpunit install
 
     - name: Run Auto Review Tests
-      run: symfony php bin/phpunit --testsuite "Auto Review Tests"
+      run: symfony php bin/phpunit --testdox --testsuite "Auto Review Tests"
